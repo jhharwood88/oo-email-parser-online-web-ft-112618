@@ -7,6 +7,7 @@ class EmailParser
   
   attr_accessor :email
   
+<<<<<<< HEAD
   def initialize(email)
     @email = email
   end
@@ -15,4 +16,13 @@ class EmailParser
     email.split(/[,\s]+/).uniq
   end
  
+=======
+  
+
+  def parse
+    self.email
+    binding.pry
+  end
+  puts "pry"
+>>>>>>> 6f69bfcc86048753599de223a2e7278000567f11
 end
